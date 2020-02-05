@@ -22,3 +22,4 @@ ln -s $PWD/config/nvim ~/.config/nvim
 
 # protect the directory once they are linked
 chmod u-w ../dotfiles 
+source ~/.bashrc
