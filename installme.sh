@@ -1,6 +1,9 @@
 #!/bin/sh
 mkdir -p old
 
+# populate subdirectories
+git submodule update --init
+
 # keep your home safe and clean
 mv -f ~/.bashrc old/bashrc.old
 mv -f ~/.bash_aliases old/bash_aliases.old
