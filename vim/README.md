@@ -1,15 +1,15 @@
 # Josh's Vim Configuration 
 
-Some Vim Magic. I personally use Neovim but this configuration also works for vim. 
+Some Vim Magic. I personally use NeoVim but this configuration also works for vim. 
 
 ## The highlights:
 
 * NERDTREE - for directory navigation in vim
-* Mardown Preview - for autoview of markdown in github flavor
-* ale - lovely async syntax checker
+* Markdown Preview - for auto view of markdown in GitHub flavor
+* ale - lovely asynchronous syntax checker
 * airline - added information at the margins about buffers and file attributes
 * supertab - tab autocomplete is the only way to live
-* polyglot - better syntax highlighting becuase I like colors
+* polyglot - better syntax highlighting because I like colors
 * gruvbox
 
 ## Install

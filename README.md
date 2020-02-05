@@ -6,4 +6,4 @@ Nothing special just some git integration into bash and my fancy vim.
 ```
 ./installme.sh
 ```
-Thats all. Happy Vimming!
+That's all. Happy Vimming!
