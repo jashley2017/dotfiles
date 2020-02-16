@@ -2,6 +2,9 @@
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
+export DISPLAY=:0
+source /opt/ros/melodic/setup.bash
+
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
