@@ -8,6 +8,7 @@
 # don't put duplicate lines in the history. See bash(1) for more options
 # ... or force ignoredups and ignorespace
 HISTCONTROL=ignoredups:ignorespace
+export DISPLAY=127.0.0.1:0
 
 # append to the history file, don't overwrite it
 shopt -s histappend
@@ -260,3 +261,4 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 LS_COLORS="$LS_COLORS:ow=94:di=94"
+alias make_vusb="socat -d -d pty,raw,echo=0 pty,raw,echo=0"

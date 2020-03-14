@@ -64,6 +64,15 @@ let g:NERDTreeDirArrowCollapsible = '^'
 
 au VimEnter * wincmd l
 
+augroup urdf_ft
+  au!
+  autocmd BufNewFile,BufRead *.urdf set syntax=xml
+augroup END
+
+augroup launch_ft
+  au!
+  autocmd BufNewFile,BufRead *.launch set syntax=xml
+augroup END
 "Markdown Preview
 "Call this on initial install
 "call mkdp#util#install()
