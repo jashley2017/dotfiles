@@ -13,7 +13,7 @@ set hlsearch
 
 set t_Co=256
 set background=dark 
-colorscheme gruvbox 
+colorscheme afterglow 
 syntax on
 set autoindent
 filetype plugin indent on 

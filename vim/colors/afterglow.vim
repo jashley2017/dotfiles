@@ -28,6 +28,7 @@ let s:green = "b4c973"
 let s:blue = "6c99bb"
 let s:wine = "b05279"
 let s:purple = "9e86c8"
+let s:pink = "db7093"
 let s:window = "4d5057"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
@@ -341,6 +342,11 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("crystalException", s:wine, "", "")
 
     " Python Highlighting
+
+    call <SID>X("pythonClassVar", s:orange, "", "")
+    call <SID>X("pythonBuiltinFunc", s:purple, "", "")
+    call <SID>X("pythonBoolean", s:pink, "", "")
+    call <SID>X("pythonImport", s:red, "", "")
     call <SID>X("pythonInclude", s:wine, "", "")
     call <SID>X("pythonStatement", s:blue, "", "")
     call <SID>X("pythonConditional", s:wine, "", "")
