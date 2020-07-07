@@ -2,7 +2,7 @@
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
-source /opt/ros/melodic/setup.bash
+# source /opt/ros/melodic/setup.bash
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
@@ -262,3 +262,5 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 LS_COLORS="$LS_COLORS:ow=94:di=94"
+
+. /etc/bash_completion.d/ssh
