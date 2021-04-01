@@ -2,7 +2,7 @@
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
-source /opt/ros/melodic/setup.bash
+# source /opt/ros/melodic/setup.bash
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
@@ -264,3 +264,4 @@ if [ -d "$HOME/bin" ] ; then
 fi
 LS_COLORS="$LS_COLORS:ow=94:di=94"
 alias make_vusb="socat -d -d pty,raw,echo=0 pty,raw,echo=0"
+. /etc/bash_completion.d/ssh
